@@ -5,7 +5,7 @@ import React from 'react'
 const ChatLabel = ({openMenu, setOpenMenu}) => {
   return (
     <div className='flex items-center justify-between p-2 text-white/80 hover:bg-white/10 rounded-lg text-sm group cursor-pointer'>
-        <p className='group-hover:max-w-5/6 truncate'>CHAT NAME HERE</p>
+        <p className='group-hover:max-w-5/6 truncate'>CHAT NAME</p>
         <div className='group relative flex items-center justify-center h-6 w-6 aspect-square hover:bg-black/80 rounded-lg'>
 
             <Image src={assets.three_dots} alt='' className={`w-4 ${openMenu.open ? '': 'hidden'} group-hover:block`}/>
